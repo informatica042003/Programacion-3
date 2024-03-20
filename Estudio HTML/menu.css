@@ -41,4 +41,8 @@ nav{
     .nav-button{
         display:inline-block ;
     }
+
+    .desaparece{
+        display: none;
+    }
 }
