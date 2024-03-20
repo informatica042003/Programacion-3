@@ -4,23 +4,20 @@ html{
 
 body{
  background-color: rgb(31,30,30);
- color:white;
-}
-
-main{
-	max-width:1100px;
-	margin:auto;
+ color:rgb(15, 137, 108);
 }
 
 .header-top{
+	text-align: center;
 	width:100%;
 	background: rgb(157,154,154);
-	padding:15px;
-	margin-top:15px}
+	padding: 10px;
+	margin:15px,30px}
 	
 
-.header-top .content-right{
-	float:right;
+.header-top .content-center{
+	text-align: center;
+	float:center;
 	padding-top:20px;
 }
 
@@ -32,4 +29,37 @@ nav.navbar ul.nav-menu li{
 	list-style: none;
 	display: inline;
 	padding: 20px;
+	max-width: 1100px;
+	margin: auto;
 }
+
+button{
+	display: inline-block;
+	font-size: large;
+    background-color: aqua; /* Color inicial del botón */
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+a{
+	color:red;
+}
+
+
+
+
+button:hover{
+	background-color: blue;
+	color:  black;
+}
+
+main{
+	
+	justify-content: center;
+	background-color: aquamarine;
+	padding: 50px;
+	text-align: center;
+	max-width: 1100px;;
+	margin:50px;
+}
+
