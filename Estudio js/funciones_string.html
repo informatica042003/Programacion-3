@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let palabra = "Hola";
+        document.write(palabra);
+        document.write('<br>');
+
+        //ver tamano de texto
+        document.write('Cantidad de letras de ',palabra,' : ', palabra.length);
+        document.write('<br>');
+
+        //cantidad especifica de letras
+        document.write('Primeras 2 letras : ', palabra.slice(0,2));
+        document.write('<br>');
+
+        //cantidad especifica de letras
+        document.write('Primeras 2 letras : ', palabra.substring(0,2));
+        document.write('<br>');
+
+        //cambiar valores en un texto
+        let saludo = 'Hola a todos';
+        saludo = saludo.replace('Hola', 'adios');
+        document.write(saludo);
+        document.write('<br>');
+
+        //en mayusculas
+        document.write('En mayuscula: ', palabra.toUpperCase());
+        document.write('<br>');
+
+
+    </script>
+</body>
+</html>

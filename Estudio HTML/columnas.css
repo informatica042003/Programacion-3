@@ -1,0 +1,20 @@
+nav{
+    background-color: aqua;
+    padding: 50px;
+}
+
+.columna{
+    background-color: rosybrown;
+    color: aliceblue;
+    padding: 30px;
+    width: 25%;
+    margin: 10px;
+}
+
+.padre{
+    /*Los parrafos son elementos 
+    de bloque pero al usar flex 
+    hacemos que se acoplen 
+    en linea*/
+    display: flex;
+}

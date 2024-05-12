@@ -1,0 +1,5 @@
+El archivo index especifica que es el archivo raiz de la carpeta. Despues se crea un archivo css que es hoja de estilo.
+
+margin: separacion externa
+padding :separacion interna
+hover: cambia el bloque debido a un evento

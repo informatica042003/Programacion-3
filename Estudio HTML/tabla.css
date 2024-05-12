@@ -1,0 +1,73 @@
+.container{
+    margin: 0px auto;
+    width: 90%;
+}
+
+body {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.columna{
+    background: white;
+    color: rgb(44, 31, 5);
+    border: 1px solid  rgb(44, 31, 5);
+    margin: 0 auto;
+    padding: 10px;
+    /*Este agrega un radio a los bordes*/
+    border-radius: 50px;
+
+    /*El primer valor es del eje X
+    El segundo eje y
+    El tercero es el degradado
+    */
+    box-shadow: 10px 10px 5px gray;
+    width: 22%;
+
+    box-sizing: border-box;
+}
+
+.precio{
+    color: aqua;
+    font-size: 50px;
+}
+
+.btn-precio{
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    display: block;
+    background: salmon;
+    padding: 10px;
+}
+
+.btn-precio:hover{
+    background: rgb(144, 74, 66);
+}
+
+@media (max-width:1070px) {
+    .columna{
+        width: 45%;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width:535px) {
+    .columna{
+        width: 100%;
+        margin-bottom: 15px;       
+    }
+}

@@ -1,0 +1,48 @@
+.nav-enlace{
+    background: salmon;
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nav-enlace:hover{
+    background: gray;
+}
+
+nav{
+    background: purple;
+    padding: 10px;
+    /*Posiciona los bloques en linea*/
+    display: flex;
+    /*Posiciona las cajas*/
+    justify-content: space-around;
+}
+
+.nav-button{
+    background: salmon;
+    color: white;
+    padding: 10px 0px;
+    border:2px solid white;
+    display: none;
+    
+}
+
+@media (max-width: 600px){
+    nav{
+        background-color: black;
+        flex-direction: column;
+    }
+
+    .nav-enlace{
+        margin: 10px 0px;
+    }
+
+    .nav-button{
+        display:inline-block ;
+    }
+
+    .desaparece{
+        display: none;
+    }
+}

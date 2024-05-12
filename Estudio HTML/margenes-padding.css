@@ -1,0 +1,27 @@
+h1{
+  background-color: aqua;  
+  /* Margen especifico
+  margin-left: 50px;
+  margin-bottom: 50px;
+  */
+
+  /*Margen a todos lados
+    margin:100px
+  */
+
+  /*Margen lados (arriba-abajo)
+    y (derecha-izquierda)
+      margin: 50px 30px;
+  */
+
+  /*Margenes especificos
+    (arriba-abajo-izquierda-derecha)
+  */
+  margin: 100px 10px 50px 20px;
+}
+
+p{
+    /*El padding es un margen interno*/
+    padding: 100px;
+    background-color: blue;
+}

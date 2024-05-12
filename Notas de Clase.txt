@@ -1,0 +1,19 @@
+		PROTOCOLOS DE INTERNET
+
+	Los protocolos de comunicación y seguridad de red son un tipo de protocolo de red que garantiza la seguridad e integridad de los datos en tránsito a través de una conexión de red como Internet. Están diseñados principalmente para evitar que usuarios, aplicaciones, servicios o dispositivos no autorizados accedan a los datos de la red.
+
+* Protocolo TCP/IP
+El protocolo TCP / IP es el protocolo de comunicación fundamental de Internet y consta de dos protocolos, el TCP y el IP. El objetivo es que los ordenadores se comuniquen de una forma sencilla y transmitan información a través de la red.
+
+*Protocolo HTTP
+El protocolo HTTP (Protocolo de transferencia de hipertexto) se basa en www (World Wide Web) que transmite mensajes por la red. Por ejemplo, cuando un usuario ingresa al navegador, la URL transmite los mensajes por HTTP al servidor web que el usuario solicitó. Luego, el servidor web responde y entrega los resultados de los criterios de búsqueda que había solicitado.
+
+*Protocolo FTP
+El protocolo FTP (protocolo de transferencia de archivos) se usa generalmente para transferir archivos a través de Internet. FTP usa un cliente-servidor para compartir archivos en una computadora remota.
+
+*Protocolo SSH
+El protocolo SSH (Secure Socket Shell) proporciona una forma segura de acceder a internet a través de un ordenador remoto. SSH proporciona autenticación y encriptación entre dos computadoras que se conectan a Internet. SSH es bien utilizado por las administraciones de red para administrar sistemas por acceso remoto.
+
+El protocolo DNS (Sistema de nombres de dominio) mantiene un directorio de nombres de dominio traducidos a direcciones IP. El DNS rastrea al usuario para ubicar la dirección web en la dirección IP correspondiente.
+
+JSON : Java script object notation
